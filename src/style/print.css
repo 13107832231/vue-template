@@ -1,0 +1,115 @@
+.reports {
+  width: 100%;
+  height: 75vh;
+  padding: 24px;
+  overflow: auto;
+  background-color: #fff;
+  position: relative;
+}
+.reports .base-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.reports .base-info .user-info {
+  padding-bottom: 30px;
+}
+.reports .base-info .user-info span {
+  margin-left: 20px;
+}
+.reports .base-info .base-list {
+  width: 100%;
+}
+.reports .base-info .base-list .base-item {
+  width: 100%;
+  font-size: 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 40px;
+  border: 0.5px solid #e6e6e6;
+  margin: 20px 0;
+}
+.reports .report-result {
+  position: absolute;
+  top: 45px;
+  right: 24px;
+  width: 120px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border: 1px solid#37c9bc;
+  transform: rotate(23deg);
+  color: #37c9bc;
+}
+.reports .report-result.active {
+  color: #ff0000;
+  border: 1px solid #ff0000;
+}
+.reports .report-group h3 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.reports .report-group .report {
+  width: 100%;
+  margin-bottom: 24px;
+}
+.reports .report-group .report .report-title {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.reports .report-group .report .report-info {
+  padding: 0 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+.reports .report-group .report .report-detail .report-detail-item {
+  display: flex;
+  justify-content: space-between;
+  color: #999999;
+  font-size: 13px;
+  margin: 10px 0;
+}
+.reports .report-group .report .report-detail .report-detail-item span:first-child {
+  width: 90px;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+.reports .report-group .report .report-detail .report-detail-item span:last-child {
+  flex: 1;
+  text-align: right;
+}
+.reports .report-group .report .report-detail .info-item-image {
+  color: #999999;
+}
+.reports .report-group .report .report-detail .info-item-image .report-image-box img {
+  width: 31%;
+  height: 100px;
+  margin: 10px 3.5% 10px 0;
+}
+.reports .report-group .report .report-detail .info-item-image .report-image-box img:nth-child(3n) {
+  margin-right: 0px;
+}
+.reports .report-group .signature {
+  margin: 15px 0;
+}
+.reports .report-group .signature .signature-item {
+  display: flex;
+}
+.reports .report-group .signature .signature-item div {
+  display: flex;
+  align-items: center;
+}
+.reports .report-group .signature .signature-item img {
+  width: 100px;
+  height: 50px;
+}
+.reports .report-group .option-level {
+  margin: 10px 0;
+}
+.reports .report-group .remark {
+  margin: 15px 0;
+}

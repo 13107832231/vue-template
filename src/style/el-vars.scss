@@ -1,0 +1,20 @@
+/* 改变主题色变量 */
+$--color-primary: #37c9bc;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import '~element-ui/packages/theme-chalk/src/index';
+
+.el-drawer__header {
+	background-color: #f0f0f0;
+	color: #37c9bc;
+	height: 60px;
+	display: flex;
+	padding: 0 24px;
+	margin-bottom: 0;
+}
+
+:export {
+  theme: $--color-primary;
+}

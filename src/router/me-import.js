@@ -1,0 +1,1 @@
+const MeImport = path => ()=> import('@/views/' + path + '.vue')
