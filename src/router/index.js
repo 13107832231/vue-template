@@ -8,6 +8,7 @@ import Layout from '@/views/layout/Layout.vue'
 
 // dashborad
 const Dashboard = () => import('@/views/dashboard/index.vue')
+const  Home =() => import('@/views/home/home.vue')
 //List 
 const List = () => import('@/views/list/index.vue')
 const ListIndex = () => import('@/views/list/list.vue')
@@ -40,6 +41,15 @@ const routes = [
 		redirect: '/login',
 		name: 'Layout',
 		children: [
+			{
+        path: '/home',
+        name: 'Home',
+        component: Home,
+        meta: {
+          Auth: true,
+          title: '首页'
+        },
+      },
 			{
 				path: '/dashboard',
 				name:'Dashboard',

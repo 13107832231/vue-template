@@ -1,5 +1,10 @@
 export default [
   {
+    path: '/home',
+    name: 'Home',
+    title: '数据图表',
+  },
+  {
     path: '/dashboard',
     name: 'Dashboard',
     title: '控制面板',
