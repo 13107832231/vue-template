@@ -1,4 +1,4 @@
 module.exports = {
-  title: 'AkAdmin SYS',
-  primaryColor: '#31c3b6',
+  title: 'me-admin SYS',
+  primaryColor: '#31c3b6'
 }
